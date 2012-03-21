@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{EB965EB2-437A-4A47-B2AC-CBB3B3D8D24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Fixtures", "Domain.Fixtures\Domain.Fixtures.csproj", "{F5384C95-A533-4E85-B686-B5EDA94472A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B54C1377-0BC5-4294-A65C-CA289E05FB36}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceFixtures", "AcceptanceFixtures\AcceptanceFixtures.csproj", "{37EBB917-1E76-4389-95DF-287FD188D528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB965EB2-437A-4A47-B2AC-CBB3B3D8D24A}.Debug|x86.ActiveCfg = Debug|x86
+		{EB965EB2-437A-4A47-B2AC-CBB3B3D8D24A}.Debug|x86.Build.0 = Debug|x86
+		{EB965EB2-437A-4A47-B2AC-CBB3B3D8D24A}.Release|x86.ActiveCfg = Release|x86
+		{EB965EB2-437A-4A47-B2AC-CBB3B3D8D24A}.Release|x86.Build.0 = Release|x86
+		{F5384C95-A533-4E85-B686-B5EDA94472A8}.Debug|x86.ActiveCfg = Debug|x86
+		{F5384C95-A533-4E85-B686-B5EDA94472A8}.Debug|x86.Build.0 = Debug|x86
+		{F5384C95-A533-4E85-B686-B5EDA94472A8}.Release|x86.ActiveCfg = Release|x86
+		{F5384C95-A533-4E85-B686-B5EDA94472A8}.Release|x86.Build.0 = Release|x86
+		{37EBB917-1E76-4389-95DF-287FD188D528}.Debug|x86.ActiveCfg = Debug|x86
+		{37EBB917-1E76-4389-95DF-287FD188D528}.Debug|x86.Build.0 = Debug|x86
+		{37EBB917-1E76-4389-95DF-287FD188D528}.Release|x86.ActiveCfg = Release|x86
+		{37EBB917-1E76-4389-95DF-287FD188D528}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
